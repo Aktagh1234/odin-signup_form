@@ -10,7 +10,16 @@
 <body>
     <div class="main">
         <div class="left">
+            <div class="forImage">
+                <div class="semi-transparent">
+                    <img src="./images/odin-lined.png" alt="Odin Logo" height="100px">
+                    <h1>ODIN</h1>
+                </div>
 
+            </div>
+            <div class="forFooter">
+                Photo by <a class="a-footer" href = "https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"> Halie West </a>on <a class="a-footer" href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>
+            </div>
         </div>
         <div class="right">
             <div class="first">
@@ -21,9 +30,47 @@
                     You <em>know</em> you want to.
                 </h3>
             </div>
-            <div class="second"></div>
-            <div class="third"></div>
+                <form action = "" method = "get">
+                    <div class="second">
+                    <h3 style="margin-left: 50px;">Let's do this!</h3>
+                    <div class="form-main-div">
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="first_name">
+                            </div>
+                            <div class="form-div">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="form-div">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" required>
+                                <p id="error"></p>
+                            </div>
+                        </div>
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="last_name">
+                            </div>
+                            <div class="form-div">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" id="phoneNumber" name="phone_number">
+                            </div>
+                            <div class="form-div">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" id="confirmPassword" name="confirm_password" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="third">
+                        <button type="submit" class="btn-green">Create Account</button>
+                    </div>
+                </form>
+            <div class="hyperlink">
+                <p>Already have an account? <a href="" class="login">Log In</a></p>    
         </div>
-    </div>
 </body>
 </html>
